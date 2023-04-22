@@ -14,7 +14,7 @@ export default function Home() {
       <div className={styles.blocoHome}>
 
         <button className={styles.btnBook}>
-          <Link target='blank' href="https://drive.google.com/drive/folders/1joolFsJnvBiPCoYW5dkF7kLI-QCX4vPp?usp=sharing">
+          <Link target='blank' href="https://www.mediafire.com/file/yiru6re1lndjsuo/Base_Mindfulness.pdf/file">
             RELAXE E BAIXE NOSSO EBOOK FREE  
           </Link>
         </button>
@@ -24,6 +24,7 @@ export default function Home() {
         </Link>
         </button> 
         </div>
+        
       <iframe src="https://open.spotify.com/embed/playlist/7pZQ7PBgcjeuihA6k0JzKB?utm_source=generator" width="320px" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
       <footer className={styles.foot}>
