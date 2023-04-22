@@ -1,10 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap');
+
 .main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  padding: 4rem;
+}
+
+.blocoHome{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.btnBook{
+  justify-content: space-between;
+  padding: 0.5em;
+  margin: 1rem;
+  border-style: none;
+  width: 320px;
+  height: 58px;
+  border-radius: 5px;
+  color: #050c2e;
+  background-color: #b0daff;
+  font-size: 18px;
+  font-family: 'Signika', sans-serif;
+}
+
+.foot{
+  margin-top: 50px;
 }
 
 .description {
