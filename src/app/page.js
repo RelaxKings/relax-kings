@@ -5,27 +5,43 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Image
-      src="/mind.gif"
-      alt="Logo"
-      width={300}
-      height={300}
-      />
-      <div className={styles.blocoHome}>
 
-        <button className={styles.btnBook}>
-          <Link target='blank' href="https://www.mediafire.com/file/yiru6re1lndjsuo/Base_Mindfulness.pdf/file">
-            RELAXE E BAIXE NOSSO EBOOK FREE  
-          </Link>
-        </button>
-        <button className={styles.btnBook}>
-        <Link target='blank' href="https://docs.google.com/forms/d/e/1FAIpQLSfNeB_9q2M8FM08Lm8Kyoijf0XsDaHFi_e9_TTyv0NNX7bwuA/viewform?usp=sf_link">
-            PREENCHA NOSSO FORMULÁRIO  
-        </Link>
-        </button> 
+      <div className={styles.blocoHome}>
+    
+        <content className={styles.conteudoPrincipal}>
+        <Image
+        className={styles.x}
+        src="/Cell6.jpg"
+        alt="Cellphone"
+        width={310}
+        height={400}
+        />
+
+        <div className={styles.blocoPrincipal}>
+        <div className={styles.Introducao}>
+          <h2 className={styles.Title}>E se você pudesse vencer sua ansiedade e estresse?</h2>
+          <p className={styles.subTitle}>Explore as 3 principais técnicas de mindfulness que podem ser facilmente aplicadas a sua rotina para que você vença de uma vez por todas a ansiedade e o estresse. Confie em quem reina quando o assunto é relaxar!</p>
         </div>
-        
-      <iframe src="https://open.spotify.com/embed/playlist/7pZQ7PBgcjeuihA6k0JzKB?utm_source=generator" width="320px" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
+        <div className={styles.secondBlock}>                 
+          <button className={styles.btnBook}>
+            Clique aqui para baixar nosso Ebook Gratuito
+          </button>
+
+          <Image
+          src="/peace.png"
+          alt="Cellphone"
+          width={340}
+          height={176}
+          />
+        </div>
+        </div>
+      
+
+        </content>
+
+      </div>
 
       <footer className={styles.foot}>
         <Link href="https://www.buymeacoffee.com/relaxkings">
