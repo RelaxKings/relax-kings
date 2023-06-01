@@ -24,10 +24,12 @@ export default function Home() {
         </div>
 
 
-        <div className={styles.secondBlock}>                 
-          <button className={styles.btnBook}>
+        <div className={styles.secondBlock}>       
+        <Link target='blank' href="https://forms.gle/zryPJK8Yisnk9M2A8">
+         <button className={styles.btnBook}>
             Clique aqui para baixar nosso Ebook Gratuito
           </button>
+        </Link>
 
           <Image
           src="/peace.png"
